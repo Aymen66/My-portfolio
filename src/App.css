@@ -66,8 +66,8 @@ header{
 
 .main{
   display: flex;
+
   background: linear-gradient(to right,  rgb(223, 210, 196) 40%, hsl(0, 0%, 97%)5%);
-  
 }
 .paragraph{
   margin-left: 2%;
@@ -679,7 +679,7 @@ footer p  {
 }
 .icon {
 box-shadow: 0px 1px 1px rgb(244, 236, 236);
-max-width: 15px;
+max-width: 20px;
 max-height: 15;
 padding: 1px 1px;
 margin: 5px 2.5px;
@@ -708,7 +708,7 @@ margin: 5px 2.5px;
 }
 .contactMethods h4{
   font-size: 12px;
-  margin: 0px 25px 5px 5px;
+  margin: 0px 15px 5px 15px;
 
 
 }
@@ -904,18 +904,18 @@ label a {
   margin-right: 50px;
   
 }
-.main{
-  flex-direction: column;
-  
-}
-.layer{
-  width: 100%;
-}
-section{
-  width: 80%;
-  margin: 0px auto;
-  
 
+section{
+  margin: 10px auto 0px auto;
+  max-width: 83%;
+  top: -180px;
+  position: relative;
+  height: auto;
+
+
+}
+article{
+  
 }
 
 
@@ -923,11 +923,38 @@ section{
 .paragraph{
   margin: 5px 20px;
   padding: 5px 20px;
-
+  top: -170px;
+  position: relative;
 
 }
+.paragraph p{
+  top: -110px;
+  position: relative;
+}
 
+img{
+  width: 40%;
 
+}
+.cardName{
+  font-size: 18px;
+
+}
+.card-employeeJob{
+  display: none;
+}
+.paragraph h1{
+  font-size: 50px;
+}
+.paragraph h2{
+
+  font-size: 20px;
+
+}
+.links{
+  top: -300px;
+  position: relative;
+}
 .contactMethods{
   margin: 5px 25px 0px -5px;
   text-align: center;
@@ -948,14 +975,35 @@ section{
 .main{
   display: flex;
   flex-direction: column;
+  height: 75vh;
 
   background: linear-gradient(to right,  rgb(223, 210, 196) 100%, hsl(0, 0%, 97%)5%);
 }
 header{
  position: relative;
+ height: 40vh;
+
+}
+.icon{
+  margin: 2px 5px;
+  
+}
+address{
+  margin:5px  0px;
+}
+footer {
+  flex-direction: column-reverse;
+
+}
+footer p{
+ 
+  margin: 10px auto 10px 20px ;
 
 }
 
+.contactMethods{
+  margin: 5px 20px;
+}
         
       }
      
