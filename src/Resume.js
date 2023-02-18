@@ -185,12 +185,12 @@ export default function Resume (){
 
                         <div class="item21">
                             <div className='languageLevel'>
-                    <h3 className='skillAndlanguage'>Arabic</h3> <img className='img' src={Full}/>
+                    <h3 className='skillAndlanguage'>Arabic</h3> <img  alt='full level' className='img' src={Full}/>
 
                             </div>
                             <h6 className='level'>Native</h6>
                             <div className='languageLevel'>
-                            <h3 className='skillAndlanguage'>English</h3> <img className='img' src={AlmostFull}/>
+                            <h3 className='skillAndlanguage'>English</h3> <img alt='almost level' className='img' src={AlmostFull}/>
 
                             </div>
                             <h6 className='level'>Proficient</h6>
@@ -199,15 +199,15 @@ export default function Resume (){
                         
                     <div class="item22">
                     <div className='languageLevel'>
-                            <h3 className='skillAndlanguage'>Translation </h3> <img className='img' src={AlmostFull}/>
+                            <h3 className='skillAndlanguage'>Translation </h3> <img className='img'alt='almost level' src={AlmostFull}/>
 
                             </div>
                             <div className='languageLevel'>
-                            <h3 className='skillAndlanguage'>Web programming; HTML, CSS, JavaScript </h3> <img className='img' src={AlmostFull}/>
+                            <h3 className='skillAndlanguage'>Web programming; HTML, CSS, JavaScript </h3> <img alt='almost level' className='img' src={AlmostFull}/>
 
                             </div>
                             <div className='languageLevel'>
-                            <h3 className='skillAndlanguage'>Microsoft office </h3> <img className='img' src={Full}/>
+                            <h3 className='skillAndlanguage'>Microsoft office </h3> <img alt='full level' className='img' src={Full}/>
 
                             </div>
                 

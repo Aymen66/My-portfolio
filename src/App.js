@@ -19,7 +19,7 @@ export default function App (){
   switch (window.location.pathname){
     case "/": 
     component = <Home/>
-    break
+    break 
     case "/Resume": 
     component = <Resume/>
     break
@@ -32,6 +32,7 @@ export default function App (){
     case "/Contact": 
     component = <Contact/>
     break
+    default: <Home/>
 
   }
   return (

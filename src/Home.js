@@ -1,11 +1,9 @@
 import React from 'react';
 import CardPic from "./profile-pic.jpeg"
-import Phone from "../src/contactPhotos/cell-phone-icon.jpg"
-import Gmail from "../src/contactPhotos/gmail.png"
+
 import Instigram from "../src/contactPhotos/instigram.jpg"
 import Facebook from "../src/contactPhotos/facebook.png"
 import Linkdin from "../src/contactPhotos/link-icon.png"
-import Whatsapp from "../src/contactPhotos/whatsapp.jpg"
 
 export default function Home (){
     return (
@@ -13,7 +11,7 @@ export default function Home (){
         
             <section>
                  <article card-box>
-                   <img  src={CardPic}></img>
+                   <img alt='card pic' src={CardPic}></img>
                    <h1 className='cardName'>Aymen <br></br> Alkhawlnai</h1>
                    <p className='line'></p>
                    <p className='card-employeeJob'>FRONT-END DEVELOPER</p>
@@ -25,11 +23,11 @@ export default function Home (){
         
         
         <div>
-        <a href="https://goo.gl/maps/4utZFiTRn1RaTB9a8"> <img className="home-icon"
+        <a href="https://goo.gl/maps/4utZFiTRn1RaTB9a8"> <img alt='Instigram icon' className="home-icon"
         src={Instigram} /></a>
-        <a href="https://www.facebook.com/loy20201"> <img className="home-icon"
+        <a href="https://www.facebook.com/loy20201"> <img alt='Facebook icon' className="home-icon"
           src={Facebook} /></a>					
-          <a href="#"> <img src={Linkdin}  className="home-icon"/></a>
+          <a href="https://www.facebook.com/loy20201"> <img src={Linkdin} alt='Linkdin icon' className="home-icon"/></a>
         
         
         </div>
