@@ -417,6 +417,8 @@ margin-top: 0vh;
   background-color: hsla(0, 4%, 82%, 0.93);
   text-align: start;
   padding: 10px 0;
+
+
   border: 1px solid rgb(164, 158, 158);
 }
 .item1{
@@ -914,9 +916,7 @@ section{
 
 
 }
-article{
-  
-}
+
 
 
 
@@ -1004,6 +1004,35 @@ footer p{
 .contactMethods{
   margin: 5px 20px;
 }
-        
+   
+.Resume{
+  top: -170px;
+  position: relative;
+  
+
+}
+
+.grid-container{
+  margin: 30px 10px  ;
+  padding:0px 0px;
+  width: 95%;
+
+
+}
+.Resume-title{
+  font-size: x-large;
+}
+.titles{
+  font-size: large;
+  margin-left: 10px;
+}
+.download-container a {
+  font-size: 10px;
+  margin: 0%;
+  padding: 10px 15px ;
+
+
+}
+
       }
      
