@@ -37,7 +37,7 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from "./footer"
 import {Route, Routes, } from "react-router-dom"
-
+import NoPage from "./pages/NoPage";
 
 
 
@@ -63,6 +63,7 @@ export default function App (){
         <Route path='/Projects' element={<Projects/>}/>
 
         <Route path='/Contact' element={<Contact/>}/>
+        <Route path="*" element={<NoPage />} />
 
 
       </Routes>
