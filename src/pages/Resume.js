@@ -1,7 +1,7 @@
 import React from 'react';
-import Full from "./full.png"
-import AlmostFull from "./almost-full.png"
-import CV from "./uk-resume.pdf"
+import Full from "../full.png"
+import AlmostFull from "../almost-full.png"
+import CV from "../uk-resume.pdf"
 
 export default function Resume (){
     return (

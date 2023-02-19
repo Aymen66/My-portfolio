@@ -30,13 +30,13 @@
 
 import React from 'react';
 import NavBar from './navBar';
-import Resume from './Resume';
+import Resume from './pages/Resume';
 import Home from './Home';
-import About from './About';
-import Projects from './Projects';
-import Contact from './Contact';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 import Footer from "./footer"
-import {Route, Routes} from "react-router-dom"
+import {Route, Routes, } from "react-router-dom"
 
 
 
@@ -56,7 +56,7 @@ export default function App (){
     <div className='containerONe'>
       <Routes>
         <Route path='/' element={<Home/>}
-        Redirect to={<Home/>}
+       
         />
         <Route path='/Resume' element={<Resume/>}/>
         <Route path='/About' element={<About/>}/>

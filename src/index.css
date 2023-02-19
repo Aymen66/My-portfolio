@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+
+
+
+
+/* import React from 'react';
+import {BrowserRouter as Router,Switch,Route,Redirect} from "react-router-dom";
+
+import NavBar from './navBar';
+import Resume from './Resume';
+import Home from './Home';
+import About from './About';
+import Projects from './Projects';
+import Contact from './Contact';
+import Footer from "./footer"
+
+
+function App () {
+
+
+    return (
+      <div>
+        <Router>
+        <NavBar />
+        
+          <Switch>
+            <Redirect exact from="/" to="/Home" />
+              <Route path="/Home">
+                <Home />
+              </Route>
+              <Route exact path="/About">
+                
+                <About />
+                
+              </Route>
+              <Route exact path="/Resume">
+                
+                <Resume />
+                
+              </Route>
+              <Route exact path="/Projects">
+                
+                <Projects />
+                
+              </Route>
+              <Route exact path="/Contact">
+                
+                <Contact />
+                
+              </Route>
+            </Switch>
+          </Router>
+          <Footer/>
+        </div>
+      );
+    }
+
+
+export default App; */
