@@ -24,12 +24,12 @@ export default function App (){
 <NavBar/>
     <div className='containerONe'>
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/Resume' element={<Resume/>}/>
-        <Route path='/About' element={<About/>}/>
-        <Route path='/Projects' element={<Projects/>}/>
+        <Route path='' element={<Home/>}/>
+        <Route path='Resume' element={<Resume/>}/>
+        <Route path='About' element={<About/>}/>
+        <Route path='Projects' element={<Projects/>}/>
 
-        <Route path='/Contact' element={<Contact/>}/>
+        <Route path='Contact' element={<Contact/>}/>
 
 
       </Routes>

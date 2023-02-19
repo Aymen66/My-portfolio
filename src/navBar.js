@@ -17,7 +17,7 @@ import {Link, useMatch, useResolvedPath} from "react-router-dom"
                         <div className="ulLeft-container">
                         <div className='title-box'></div>
                         <li>
-                     <Link to='/' className='employeeName'> Aymen Alkhawlnai</Link>
+                     <Link to='Home' className='employeeName'> Aymen Alkhawlnai</Link>
 
                         </li>
                         </div>
@@ -27,10 +27,10 @@ import {Link, useMatch, useResolvedPath} from "react-router-dom"
                     <input type="checkbox"/>
                     <div class="menu"> <div class="hamburger"></div> </div>
                     <ul  className='ulNav'>
-                       <CustomLink className="nav-list" to='/'>ABOUT ME</CustomLink>
-                            <CustomLink className="nav-list"  to='/Resume'>RESUME</CustomLink>
-                            <CustomLink className="nav-list" to='/Projects'>PROJECTS</CustomLink>
-                            <CustomLink className="nav-list"  to='/Contact'>CONTACT</CustomLink>
+                       <CustomLink className="nav-list" to='Home'>ABOUT ME</CustomLink>
+                            <CustomLink className="nav-list"  to='Resume'>RESUME</CustomLink>
+                            <CustomLink className="nav-list" to='Projects'>PROJECTS</CustomLink>
+                            <CustomLink className="nav-list"  to='Contact'>CONTACT</CustomLink>
                        
         
         
