@@ -1,9 +1,9 @@
 import React from 'react';
-import CardPic from "./profile-pic.jpeg"
+import CardPic from "../profile-pic.jpeg"
 
-import Instigram from "../src/contactPhotos/instigram.jpg"
-import Facebook from "../src/contactPhotos/facebook.png"
-import Linkdin from "../src/contactPhotos/link-icon.png"
+import Instigram from "../contactPhotos/instigram.jpg"
+import Facebook from "../contactPhotos/facebook.png"
+import Linkdin from "../contactPhotos/link-icon.png"
 
 export default function Home (){
     return (
