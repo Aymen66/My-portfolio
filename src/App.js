@@ -63,6 +63,7 @@ export default function App (){
         <Route path='/Projects' element={<Projects/>}/>
 
         <Route path='/Contact' element={<Contact/>}/>
+        <Route path="*" element={<NoPage />} />
 
 
       </Routes>
