@@ -59,11 +59,10 @@ export default function App (){
        
         />
         <Route path='/Resume' element={<Resume/>}/>
-        <Route path='/About' element={<About/>}/>
+        <Route index path='/About' element={<About/>}/>
         <Route path='/Projects' element={<Projects/>}/>
 
         <Route path='/Contact' element={<Contact/>}/>
-        <Route path="*" element={<NoPage />} />
 
 
       </Routes>
