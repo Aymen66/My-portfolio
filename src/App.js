@@ -24,11 +24,11 @@ export default function App (){
     <div className='containerONe'>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/about' element={<Home/>}/>
-        <Route path='/resume' element={<Resume/>}/>
-        <Route path='/projects' element={<Projects/>}/>
+        <Route path='/Resume' element={<Resume/>}/>
+        <Route path='/About' element={<About/>}/>
+        <Route path='/Projects' element={<Projects/>}/>
 
-        <Route path='/contact' element={<Contact/>}/>
+        <Route path='/Contact' element={<Contact/>}/>
 
 
       </Routes>
