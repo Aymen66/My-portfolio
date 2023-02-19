@@ -2,6 +2,7 @@
 
 // import React, { Children } from 'react';
 import React from "react"
+import {Link, useMatch, useResolvedPath} from "react-router-dom"
 
 
 
@@ -16,7 +17,7 @@ import React from "react"
                         <div className="ulLeft-container">
                         <div className='title-box'></div>
                         <li>
-                     <a href='/' className='employeeName'> Aymen Alkhawlnai</a>
+                     <Link to='/' className='employeeName'> Aymen Alkhawlnai</Link>
 
                         </li>
                         </div>
@@ -26,10 +27,10 @@ import React from "react"
                     <input type="checkbox"/>
                     <div class="menu"> <div class="hamburger"></div> </div>
                     <ul  className='ulNav'>
-                       <CustomLink className="nav-list" href='/'>ABOUT ME</CustomLink>
-                            <CustomLink className="nav-list"  href='/Resume'>RESUME</CustomLink>
-                            <CustomLink className="nav-list" href='/Projects'>PROJECTS</CustomLink>
-                            <CustomLink className="nav-list"  href='/Contact'>CONTACT</CustomLink>
+                       <CustomLink className="nav-list" to='/'>ABOUT ME</CustomLink>
+                            <CustomLink className="nav-list"  to='/Resume'>RESUME</CustomLink>
+                            <CustomLink className="nav-list" to='/Projects'>PROJECTS</CustomLink>
+                            <CustomLink className="nav-list"  to='/Contact'>CONTACT</CustomLink>
                        
         
         
@@ -58,13 +59,13 @@ import React from "react"
     )
 }
 
-function CustomLink ({ href, children, ...props}){
-    const path = window.location.pathname
-
+function CustomLink ({ to, children, ...props}){
+const resolvedPath = useResolvedPath(to)
+const isActive = useMatch({path: resolvedPath.pathname, end: true})
 
 return(
-    <li className= {path === href ? "active" : ""}>
-                    <a href={href} {...props}>{children}</a>
+    <li className= {isActive ? "active" : ""}>
+                    <Link to={to} {...props}>{children}</Link>
                 </li>
 )
 }

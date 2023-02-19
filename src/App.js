@@ -7,6 +7,7 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './footer';
+import {Route, Routes} from "react-router-dom"
 
 
 import './App.css';
@@ -15,33 +16,22 @@ import './App.css';
 
 
 export default function App (){
-  let component 
-  switch (window.location.pathname){
-    case "/": 
-    component = <Home/>
-    break 
-    case "/Resume": 
-    component = <Resume/>
-    break
-    case "/about": 
-    component = <About/>
-    break
-    case "/Projects": 
-    component = <Projects/>
-    break
-    case "/Contact": 
-    component = <Contact/>
-    break
-    default: <Home/>
 
-  }
   return (
 <div className='container'>
 
 <NavBar/>
     <div className='containerONe'>
-    {component}
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/about' element={<Home/>}/>
+        <Route path='/resume' element={<Resume/>}/>
+        <Route path='/projects' element={<Projects/>}/>
 
+        <Route path='/contact' element={<Contact/>}/>
+
+
+      </Routes>
     </div>
     <Footer/>
   </div>
