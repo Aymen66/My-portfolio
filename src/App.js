@@ -55,7 +55,9 @@ export default function App (){
 <NavBar/>
     <div className='containerONe'>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/' element={<Home/>}
+        Redirect to={<Home/>}
+        />
         <Route path='/Resume' element={<Resume/>}/>
         <Route path='/About' element={<About/>}/>
         <Route path='/Projects' element={<Projects/>}/>
