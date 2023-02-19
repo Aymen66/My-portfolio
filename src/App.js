@@ -18,7 +18,8 @@ import './App.css';
 export default function App (){
 
   return (
-<div className='container'>
+        <>
+        <div className='container'>
 
 <NavBar/>
     <div className='containerONe'>
@@ -35,6 +36,7 @@ export default function App (){
     </div>
     <Footer/>
   </div>
+        </>
 
   )
   
