@@ -830,16 +830,19 @@ label .hamburger:after, label .hamburger:before {
   width: 100%;
   height: 100%;
   background: blue;
+  
 }
+ 
 
-label .hamburger:before { top: -10px;  }
+label .hamburger:before { top: -10px;  
+}
 
 label .hamburger:after { bottom: -10px; }
 
 label input { display: none; }
 
 label input:checked + .menu {
-  box-shadow: 0 0 0 100vw rgb(239, 232, 225), 0 0 0 50vh #211212;
+  box-shadow: 0 0 0 100vw rgb(239, 232, 225), 0 0 0 100vh #211212;
   border-radius: 0;
   
   
@@ -889,6 +892,9 @@ label .ulNav {
 
 
 }
+label .ulNav::before { 
+
+}  
 
 
 label a {
@@ -1056,7 +1062,7 @@ footer p{
   font-size: large;
   margin-left: 10px;
 }
-.download-container a {
+.download-container .downloadCV{
   font-size: 10px;
   margin: 0%;
   padding: 10px 15px ;

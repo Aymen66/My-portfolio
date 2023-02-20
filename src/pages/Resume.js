@@ -12,7 +12,7 @@ export default function Resume (){
                 </div>  
                 <div className='download-container'>
                     <h2 className='titles'>Work Experience</h2>
-                    <a href={CV} download="newfilename">Download CV</a>
+                    <a  className='downloadCV' href={CV} download="newfilename">Download CV</a>
                     </div>   
                     <div class="grid-container">
                     <h4 className='teaching-type'>Administrative Positions</h4>

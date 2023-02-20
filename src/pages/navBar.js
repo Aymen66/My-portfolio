@@ -108,6 +108,8 @@ import Footer from '../pages/footer';
 
 const NavBar = () => {
   const [isShown, setIsShown]= React.useState(true)
+  const [hamburger, setHamburger]= React.useState(false)
+
 
   function flip(){
     setIsShown(function(prevState){
@@ -119,6 +121,16 @@ const NavBar = () => {
   })
     
  }
+ function hamburgerFlip(){
+  setHamburger(function(prevState){
+    if(!prevState){
+        return true
+    }else{
+        return false
+    }
+})
+  
+}
 
  
  
@@ -140,8 +152,8 @@ const NavBar = () => {
                                          </ul>
              {   isShown &&  <label >
                      <input type="checkbox"/>
-                     <div class="menu"> <div class="hamburger"></div> </div>
-                     <ul  className='ulNav'>
+                     <div onClick={hamburgerFlip} class="menu"> <div class="hamburger"></div> </div>
+                    {hamburger && <ul  className='ulNav'>
                         <Link onClick={flip} className="nav-list" to='/'>ABOUT ME</Link>
                              <Link onClick={flip} className="nav-list"  to='/Resume'>RESUME</Link>
                              <Link onClick={flip} className="nav-list" to='/Projects'>PROJECTS</Link>
@@ -150,13 +162,13 @@ const NavBar = () => {
         
         
         
-                         </ul>
+                         </ul>}
                      </label>
                         }
                           {   !isShown &&  <label >
                      <input type="checkbox"/>
-                     <div class="menu"> <div class="hamburger"></div> </div>
-                     <ul  className='ulNav'>
+                     <div onClick={hamburgerFlip} class="menu"> <div class="hamburger"></div> </div>
+                    {!hamburger &&  <ul  className='ulNav'>
                         <Link onClick={flip} className="nav-list" to='/'>ABOUT ME</Link>
                              <Link onClick={flip} className="nav-list"  to='/Resume'>RESUME</Link>
                              <Link onClick={flip}className="nav-list" to='/Projects'>PROJECTS</Link>
@@ -165,7 +177,7 @@ const NavBar = () => {
         
         
         
-                         </ul>
+                         </ul>}
                      </label>
                         }
                      
