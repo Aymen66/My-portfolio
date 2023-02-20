@@ -107,7 +107,7 @@ export default function App() {
           <Route path="Projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />
 
-          <Route path="*" element={<Home />} />
+          {/* <Route path="*" element={<Home />} /> */}
         </Route>
       </Routes>
     </HashRouter>

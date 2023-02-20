@@ -144,7 +144,7 @@ const NavBar = () => {
                          <div className="ulLeft-container">
                          <div className='title-box'></div>
                          <li>
-                      {/* <Link  to='/' className='employeeName'> Aymen Alkhawlnai</Link> */}
+                      <Link  to='/' className='employeeName'> Aymen Alkhawlnai</Link>
 
                          </li>
                          </div>
