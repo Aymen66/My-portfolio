@@ -150,7 +150,7 @@ const NavBar = () => {
                          </div>
                           <li className='job-title'><span className="slash">/</span> FRONT-END DEVELOPER</li>
                                          </ul>
-             {   isShown &&  <label >
+             {   isShown &&  <label  >
                      <input type="checkbox"/>
                      <div onClick={hamburgerFlip} class="menu"> <div class="hamburger"></div> </div>
                     {hamburger && <ul  className='ulNav'>
