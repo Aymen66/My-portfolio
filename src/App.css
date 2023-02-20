@@ -1050,6 +1050,7 @@ footer p{
   .project-container{
     top: -170px;
   position: relative;
+  padding-top: 15px;
   }
   .contact-container{
     top: -170px;
@@ -1063,6 +1064,8 @@ footer p{
     width: 80%;
 
     }
+ 
+   
  
       }
      

@@ -99,7 +99,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="*" element={<NavBar />}>
+        <Route path="/" element={<NavBar />}>
           <Route index element={<Home />} />
 
           <Route path="Resume" element={<Resume />} />
