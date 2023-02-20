@@ -17,7 +17,7 @@ export default function Resume (){
                     <div class="grid-container">
                     <h4 className='teaching-type'>Administrative Positions</h4>
 
-                    <div class="item1">
+                    <div class=" item item1">
                         
                             <h3 className='dates'>2016 - Nov.2017</h3>
                             <h5 className='ocupation'>  Sana'a, Yemen</h5>
@@ -25,7 +25,7 @@ export default function Resume (){
                         
                     </div>
 
-                    <div class="item2">
+                    <div class="item  item2">
                     <div>
                                 <h4 className='company-name'>Alnasser University Center For Languages</h4>
                                 <h5 className='ocupation'>Occupation: Coordinator</h5>
@@ -35,20 +35,20 @@ export default function Resume (){
 
                             </div>
                     </div>
-                    <div class="item3">
+                    <div class=" item item3">
                     <h3 className='dates'>Nov. 2015 – Feb. 2016</h3>
                     <h5 className='ocupation'>  Sana'a, Yemen</h5>
 
                         
                     </div>
-                    <div class="item4">
+                    <div class="item item4">
                     <h4 className='company-name'>Active Institute</h4>
                                 <h5 className='ocupation'>Occupation: Coordinator</h5>
                                 <h6 className='duties'>	Duties: Running the department, solving administrative issues and making immediate decisions, making weekly evaluations for teachers’ performance, selecting and hiring new teachers and writing monthly reports.</h6>
 
                     </div>
                     <h4 className='teaching-type'> Teaching Position</h4>
-                    <div class="item5">
+                    <div class="item item5">
                         
                     <h3 className='dates'>
                         Dec. 2018 – June 2019</h3>
@@ -56,12 +56,12 @@ export default function Resume (){
 
 
                     </div>
-                    <div class="item6"> 
+                    <div class="item item6"> 
                     <h4 className='company-name'>Success International Language Center</h4>
                          <h5 className='ocupation'>Occupation: Occupation: ESL Instructor (Part Time)</h5>
 
                          </div>
-                    <div class="item7">
+                    <div class="item item7">
                     <h3 className='dates'>
                     2014 – 2017
 
@@ -71,12 +71,12 @@ export default function Resume (){
 
 
                         </div>
-                    <div class="item8">
+                    <div class="item item8">
                     <h4 className='company-name'>Modern American Language Institute </h4>
                     <h5 className='ocupation'>Occupation: Occupation: ESL Instructor (Part Time)</h5>
 
                     </div>
-                    <div class="item9">
+                    <div class="item item9">
                     <h3 className='dates'>
                     Dec. 2016 –Dec. 2017
 
@@ -84,12 +84,12 @@ export default function Resume (){
                     <h5 className='ocupation'>  Sana'a, Yemen </h5>
 
                         </div>
-                    <div class="item10">
+                    <div class="item item10">
                     <h4 className='company-name'>Waterford Language & Training Academy (Azal University)</h4>
                                 <h5 className='ocupation'>Occupation: Occupation: ESL Instructor (Part Time)</h5>
                     </div>
                     <h2 className='titles'>Volunteer Experience</h2>
-                    <div class="item24">
+                    <div class="item item24">
                     <h3 className='dates'>
                     September, 2022 – Present
 
@@ -99,14 +99,14 @@ export default function Resume (){
 
 
                     </div>
-                    <div class="item25">
+                    <div class="item item25">
                         <h5 className='ocupation'>
                     Volunteer at Maryhill Integration Network
 
                         </h5>
                     </div>
 
-                    <div class="item11">
+                    <div class="item item11">
                     <h3 className='dates'>
                     April. 2022 – Present
 
@@ -116,13 +116,13 @@ export default function Resume (){
 
 
                     </div>
-                    <div class="item12">
+                    <div class="item item12">
                         <h5 className='ocupation'>
                     Volunteer at Rediscovering the Antonine Wall Project
 
                         </h5>
                     </div>
-                    <div class="item13">
+                    <div class="item item13">
                     <h3 className='dates'>
                     Sep. 2021 – Oct. 2021
                         
@@ -130,13 +130,13 @@ export default function Resume (){
                     <h5 className='ocupation'>  Belfast, Northern Ireland </h5>
 
                     </div>
-                    <div class="item14">	
+                    <div class="item item14">	
                     <h5 className='ocupation'>
                     Volunteer at Storehouse
                     </h5>
 
                     </div>
-                    <div class="item15">
+                    <div class="item item15">
                     <h3 className='dates'>
                     Jan. 2022 – July 2021
                         
@@ -144,7 +144,7 @@ export default function Resume (){
                     <h5 className='ocupation'>  Falkirk, Scotland </h5>
 
                         </div>
-                    <div class="item16">
+                    <div class="item item16">
                         
                     <h5 className='ocupation'>
                     Volunteer at Friends of Scottish Settlers(FOSS)
@@ -154,27 +154,27 @@ export default function Resume (){
                     <h2 className='titles'>Education</h2>
 
 
-                        <div class="item17">
+                        <div class="item item17">
                     <h3 className='dates'>
                     2022 -Present
                         
                         </h3>
                         </div>
-                    <div class="item18">
+                    <div class="item item18">
                         
                     <h5 className='ocupation'>
                     Meta Front-End Development program
                     </h5>
                         </div>
 
-                        <div class="item19">
+                        <div class="item item19">
                     <h3 className='dates'>
                     2011 -2015
                     
                         
                         </h3>
                         </div>
-                    <div class="item20">
+                    <div class="item item20">
                         
                     <h5 className='ocupation'>
                     English Literature University of Sana’a
@@ -183,7 +183,7 @@ export default function Resume (){
                         </div>
                     <h2 className='titles'>Languages</h2>
 
-                        <div class="item21">
+                        <div class="item item21">
                             <div className='languageLevel'>
                     <h3 className='skillAndlanguage'>Arabic</h3> <img  alt='full level' className='img' src={Full}/>
 
@@ -197,7 +197,7 @@ export default function Resume (){
                         </div>
                     <h2 className='titles'>Skills</h2>
                         
-                    <div class="item22">
+                    <div class="item item22">
                     <div className='languageLevel'>
                             <h3 className='skillAndlanguage'>Translation </h3> <img className='img'alt='almost level' src={AlmostFull}/>
 
@@ -215,7 +215,7 @@ export default function Resume (){
 
                     <h2 className='titles'>Competencies</h2>
 
-                        <div class="item23">
+                        <div class="item item23">
                             <ul className='Competencies'>
                                 <li>Comprehensive knowledge of all relevant teaching laws, academic policies, and administrative rules and regulations.</li>
                                 <li>Interacting with coleagues on a professional level and able to establish and relationships with them.</li>

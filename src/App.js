@@ -82,7 +82,7 @@ import React from 'react';
 import NavBar from './pages/navBar';
 import Resume from './pages/Resume';
 import Home from './pages/Home';
-import About from './pages/About';
+// import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 // import Footer from "./footer"

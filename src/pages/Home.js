@@ -38,9 +38,9 @@ export default function Home (){
                  <h1>Hello</h1>
                  <h2>Here's who I am & what I do</h2>
                  <div className='links'>
-                 <Link  to='/Resume'>RESUME</Link>
+                 <Link className='anchors' to='/Resume'>RESUME</Link>
                   
-                 <Link  to='/Projects'>PROJECTS</Link>
+                 <Link className='anchors' to='/Projects'>PROJECTS</Link>
         
                  </div>
                  <p>
