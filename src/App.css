@@ -842,7 +842,7 @@ label .hamburger:after { bottom: -10px; }
 label input { display: none; }
 
 label input:checked + .menu {
-  box-shadow: 0 0 0 100vw rgb(239, 232, 225), 0 0 0 100vh #211212;
+  box-shadow: 0 0 0 100vw rgb(239, 232, 225), 0 0 0 100vh rgb(239, 232, 225);
   border-radius: 0;
   
   
@@ -936,7 +936,7 @@ section{
 .paragraph{
   margin: 20px 20px;
   padding: 5px 20px;
-  top: -170px;
+  top: -160px;
   position: relative;
 
 }
@@ -971,14 +971,21 @@ img{
 
 }
 .links{
-  top: -270px;
+  top: -260px;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.line{
+  margin-bottom: 10px;
 }
 .contactMethods{
   margin: 5px 25px 0px -5px;
   text-align: center;
   
 }
+
 .uLeft{
   flex-direction: column;
   padding-left: 15px;
