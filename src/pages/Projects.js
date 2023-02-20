@@ -1,6 +1,6 @@
 import React from 'react';
-import Card from "./Card"
-import  data from "../data"
+import Card from "../pages/Card"
+import  data from "../pages/data"
 
 const element = data.map( item => {
     return (

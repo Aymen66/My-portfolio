@@ -117,13 +117,13 @@ nav{
 
 .ulNav li {
   list-style: outside none none;
-  margin: 22px 5px;
+  margin: 22px 5px ;
   font-size: 15px;
   font-weight: 350;
 }
 
 .ulNav a {
-  padding: 10px;
+  padding: 15px 10px 10px 10px;
   position: relative;
   text-decoration: none;
   color: black;
@@ -1034,5 +1034,35 @@ footer p{
 
 }
 
+.projects{
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10px;
+
+
+}
+.smaller-div{
+  padding: 10px;
+    margin: 5px 0px;
+
+
+  }
+  .project-container{
+    top: -170px;
+  position: relative;
+  }
+  .contact-container{
+    top: -170px;
+  position: relative;
+  }
+  .contact-message{
+    width: 60%;
+  
+    }
+    textarea{
+    width: 80%;
+
+    }
+ 
       }
      

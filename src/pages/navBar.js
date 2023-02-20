@@ -103,6 +103,7 @@
 //   }
 
 import { Outlet, Link } from "react-router-dom";
+import Footer from '../pages/footer';
 
 const NavBar = () => {
   return (
@@ -141,6 +142,7 @@ const NavBar = () => {
     
 
       <Outlet />
+      <Footer/>
     </>
   )
 };
