@@ -842,7 +842,7 @@ label .hamburger:after { bottom: -10px; }
 label input { display: none; }
 
 label input:checked + .menu {
-  box-shadow: 0 0 0 100vw rgb(239, 232, 225), 0 0 0 100vh #211212;
+  box-shadow: 0 0 0 100vw rgb(239, 232, 225), 0 0 0 10vh #211212;
   border-radius: 0;
   
   
@@ -878,8 +878,10 @@ label input:checked + .menu + .ulNav { opacity: 1; }
 
 label .ulNav {
   z-index: 200;
-  position: absolute;
-  top: 80%;
+  position: fixed;
+  top: 30%;
+/* i changed the toped from 80 to 30  */
+/* i changed the position from aboslute to fixed */
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -902,6 +904,7 @@ label a {
   text-decoration: none;
   font-weight: 800;
   font-size: 17px;
+
 
 
 
@@ -1105,7 +1108,9 @@ footer p{
   line-height: 4vh;
   
  }
-   
+ .projects-img{
+  max-width: 100%;
+ }
  
       }
      
