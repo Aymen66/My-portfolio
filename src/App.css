@@ -386,9 +386,9 @@ margin-right: 11vw;
 margin-top: 0vh;
 }
 
-.download-container a {
+.download-container > a {
   
-  background-color: hwb(220 0% 0%);
+  background: hwb(220 0% 0%);
   color: aliceblue;
   margin: 0vh 10px  10px 15vw ;
   padding: 10px 30px ;
@@ -588,11 +588,11 @@ padding: 20px 0px;
   }
 
   
-.btn-form{
+button{
   padding: 7px 30px;
   border-radius: 50px;
   font-weight: 900;
-  background-color: hwb(220 0% 0%);
+  background: hwb(220 0% 0%);
   box-shadow: 0px 1px 1px black;
   text-shadow: 0px 1px 1px black;
 
@@ -842,7 +842,7 @@ label .hamburger:after { bottom: -10px; }
 label input { display: none; }
 
 label input:checked + .menu {
-  box-shadow: 0 0 0 100vw rgb(239, 232, 225), 0 0 0 10vh #211212;
+  box-shadow: 0 0 0 100vw rgb(239, 232, 225), 0 0 0 100vh #211212;
   border-radius: 0;
   
   
@@ -879,7 +879,7 @@ label input:checked + .menu + .ulNav { opacity: 1; }
 label .ulNav {
   z-index: 200;
   position: fixed;
-  top: 30%;
+  top: 35%;
 /* i changed the toped from 80 to 30  */
 /* i changed the position from aboslute to fixed */
   left: 50%;
