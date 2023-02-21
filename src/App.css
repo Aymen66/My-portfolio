@@ -786,7 +786,7 @@ body {
 }
 
 label .menu {
-  position:absolute;
+  position:fixed;
   /* i changed it to 0 from100 */
   right: -100px;
   top: -100px;
