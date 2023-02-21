@@ -150,10 +150,10 @@ const NavBar = () => {
                          </div>
                           <li className='job-title'><span className="slash">/</span> FRONT-END DEVELOPER</li>
                                          </ul>
-             {   isShown &&  <label  >
+             {  isShown &&  <label  >
                      <input type="checkbox"/>
                      <div onClick={hamburgerFlip} class="menu"> <div class="hamburger"></div> </div>
-                    {<ul  className='ulNav'>
+                    <ul  className='ulNav'>
                         <Link onClick={flip} className="nav-list" to='/'>ABOUT ME</Link>
                              <Link onClick={flip} className="nav-list"  to='/Resume'>RESUME</Link>
                              <Link onClick={flip} className="nav-list" to='/Projects'>PROJECTS</Link>
@@ -162,7 +162,7 @@ const NavBar = () => {
         
         
         
-                         </ul>}
+                         </ul>
                      </label>
                         }
                           {   !isShown &&  <label >

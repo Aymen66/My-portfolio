@@ -786,7 +786,7 @@ body {
 }
 
 label .menu {
-  position:fixed;
+  position:absolute;
   /* i changed it to 0 from100 */
   right: -100px;
   top: -100px;
@@ -874,7 +874,9 @@ label input:checked + .menu .hamburger:before {
   
 }
 
-label input:checked + .menu + .ulNav { opacity:6; }
+label input:checked + .menu + .ulNav { opacity:1;
+  -webkit-transition: .25s 0s ease-in-out;
+  transition: .25s 0s ease-in-out; }
 
 label .ulNav {
   z-index: 200;
@@ -885,7 +887,7 @@ label .ulNav {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  opacity: -2;
+  opacity: 0;
   -webkit-transition: .25s 0s ease-in-out;
   transition: .25s 0s ease-in-out;
   width: 50%; 
