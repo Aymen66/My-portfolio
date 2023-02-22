@@ -895,10 +895,6 @@ label .ulNav {
 
 
 }
-label .ulNav::before { 
-
-}  
-
 
 label a {
   margin-bottom: 1.2em;
@@ -1073,7 +1069,7 @@ footer p{
   font-size: large;
   margin-left: 10px;
 }
-.download-container .downloadCV{
+.download-container > :last-child{
   font-size: 10px;
   margin: 0%;
   padding: 10px 15px ;
