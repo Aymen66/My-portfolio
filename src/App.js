@@ -76,28 +76,20 @@
   
 // }
 
-
-
 import React from 'react';
+import './App.css';
 import NavBar from './pages/navBar';
+import { HashRouter , Routes, Route } from "react-router-dom";
 import Resume from './pages/Resume';
 import Home from './pages/Home';
-// import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-// import Footer from "./footer"
 
-
-
-import './App.css';
-
-import { HashRouter , Routes, Route } from "react-router-dom";
-
-// import NoPage from "./pages/NoPage";
-
-export default function App() {
+// import { Link } from "react-router-dom";
+function App() {
   return (
-    <HashRouter>
+    <div className="App" id="outer-container">
+            <HashRouter>
       <Routes>
         <Route path="/" element={<NavBar />}>
           <Route index element={<Home />} />
@@ -107,12 +99,36 @@ export default function App() {
           <Route path="Projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />
 
-          {/* <Route path="*" element={<Home />} /> */}
         </Route>
       </Routes>
     </HashRouter>
+
+      
+    </div>
   );
 }
+
+export default App;
+
+// import React from 'react';
+// import NavBar from './pages/navBar';
+// import Resume from './pages/Resume';
+// import Home from './pages/Home';
+// import Projects from './pages/Projects';
+// import Contact from './pages/Contact';
+
+
+
+// import './App.css';
+
+// import { HashRouter , Routes, Route } from "react-router-dom";
+
+
+// export default function App() {
+//   return (
+    
+//   );
+// }
 
 
 

@@ -100,101 +100,165 @@
 //           </header>
 
 //       )
-//   }
-import React from "react";
+// //   }
+// import React from "react";
 
+// import { Outlet, Link } from "react-router-dom";
+// import Footer from '../pages/footer';
+
+// const NavBar = () => {
+//   const [isShown, setIsShown]= React.useState(true)
+
+//   const [hamburger, setHamburger]= React.useState(false)
+
+
+//   function flip(){
+//     setIsShown(function(prevState){
+//       if(!prevState){
+//           return true
+//       }else{
+//           return false
+//       }
+//   })
+  
+//  }
+
+//  function hamburgerFlip(){
+//   setHamburger(function(prevState){
+//     if(!prevState){
+//         return true
+//     }else{
+//         return false
+//     }
+// })
+
+  
+// }
+
+ 
+ 
+//   return (
+//     <>
+//     <header >
+//                       <nav  >
+                        
+//                       <ul className='uLeft'>
+                        
+//                          <div className="ulLeft-container">
+//                          <div className='title-box'></div>
+//                          <li>
+//                       <Link  to='/' className='employeeName'> Aymen Alkhawlnai</Link>
+
+//                          </li>
+//                          </div>
+//                           <li className='job-title'><span className="slash">/</span> FRONT-END DEVELOPER</li>
+//                                          </ul>
+//              {  isShown &&  <label  >
+//                      <input type="checkbox"/>
+//                      <div  onClick={hamburgerFlip} class="menu"> <div class="hamburger"></div> </div>
+//                    {hamburger&& <ul  className='ulNav'>
+//                         <Link onClick={flip} className="nav-list" to='/'>ABOUT ME</Link>
+//                              <Link onClick={flip} className="nav-list"  to='/Resume'>RESUME</Link>
+//                              <Link onClick={flip} className="nav-list" to='/Projects'>PROJECTS</Link>
+//                              <Link onClick={flip} className="nav-list"  to='/Contact'>CONTACT</Link>
+                       
+        
+        
+        
+//                          </ul>}
+//                      </label>
+// }
+//                           {   !isShown &&  <label >
+//                      <input type="checkbox"/>
+//                      <div onClick={hamburgerFlip} class="menu"> <div class="hamburger"></div> </div>
+//                     {!hamburger &&  <ul  className='ulNav'>
+//                         <Link onClick={flip} className="nav-list" to='/'>ABOUT ME</Link>
+//                              <Link onClick={flip} className="nav-list"  to='/Resume'>RESUME</Link>
+//                              <Link onClick={flip}className="nav-list" to='/Projects'>PROJECTS</Link>
+//                              <Link onClick={flip} className="nav-list"  to='/Contact'>CONTACT</Link>
+                       
+        
+        
+        
+//                          </ul>}
+                      
+//                      </label>
+//                         }
+                     
+                     
+                      
+//                          </nav>
+//                             </header>
+    
+
+//       <Outlet />
+//       <Footer/>
+//     </>
+//   )
+// };
+
+// export default NavBar;
+
+import React from 'react';
+import { fallDown   as Menu } from 'react-burger-menu';
+import './Sidebar.css';
 import { Outlet, Link } from "react-router-dom";
 import Footer from '../pages/footer';
 
-const NavBar = () => {
-  const [isShown, setIsShown]= React.useState(true)
-
-  const [hamburger, setHamburger]= React.useState(false)
-
-
-  function flip(){
-    setIsShown(function(prevState){
-      if(!prevState){
-          return true
-      }else{
-          return false
-      }
-  })
-  
- }
-
- function hamburgerFlip(){
-  setHamburger(function(prevState){
-    if(!prevState){
-        return true
-    }else{
-        return false
-    }
-})
-
-  
-}
-
- 
- 
+export default props => {
   return (
     <>
     <header >
-                      <nav  >
+                       <nav  >
                         
                       <ul className='uLeft'>
                         
-                         <div className="ulLeft-container">
+                          <div className="ulLeft-container">
                          <div className='title-box'></div>
                          <li>
-                      <Link  to='/' className='employeeName'> Aymen Alkhawlnai</Link>
+                      <a   className='employeeName'> Aymen Alkhawlnai</a>
 
-                         </li>
-                         </div>
+                          </li>
                           <li className='job-title'><span className="slash">/</span> FRONT-END DEVELOPER</li>
+
+                          </div>
                                          </ul>
-             {  isShown &&  <label  >
-                     <input type="checkbox"/>
-                     <div  onClick={hamburgerFlip} class="menu"> <div class="hamburger"></div> </div>
-                   {hamburger&& <ul  className='ulNav'>
-                        <Link onClick={flip} className="nav-list" to='/'>ABOUT ME</Link>
-                             <Link onClick={flip} className="nav-list"  to='/Resume'>RESUME</Link>
-                             <Link onClick={flip} className="nav-list" to='/Projects'>PROJECTS</Link>
-                             <Link onClick={flip} className="nav-list"  to='/Contact'>CONTACT</Link>
-                       
-        
-        
-        
-                         </ul>}
-                     </label>
-}
-                          {   !isShown &&  <label >
-                     <input type="checkbox"/>
-                     <div onClick={hamburgerFlip} class="menu"> <div class="hamburger"></div> </div>
-                    {!hamburger &&  <ul  className='ulNav'>
-                        <Link onClick={flip} className="nav-list" to='/'>ABOUT ME</Link>
-                             <Link onClick={flip} className="nav-list"  to='/Resume'>RESUME</Link>
-                             <Link onClick={flip}className="nav-list" to='/Projects'>PROJECTS</Link>
-                             <Link onClick={flip} className="nav-list"  to='/Contact'>CONTACT</Link>
-                       
-        
-        
-        
-                         </ul>}
-                      
-                     </label>
-                        }
-                     
-                     
-                      
-                         </nav>
-                            </header>
-    
+             
+                    
+                     <div   class="menu"> <div class="hamburger"></div> </div>
+    <Menu>
 
-      <Outlet />
-      <Footer/>
+                    <ul  className='ulNav'>
+      <Link className="menu-item" to="/">
+        ABOUT ME
+      </Link>
+      <Link className="menu-item" to="/Resume">
+        RESUME
+      </Link>
+      <Link className="menu-item" to="/Projects">
+        PROJECTS
+      </Link>
+      <Link className="menu-item" to="/Contact">
+        CONTACT
+      </Link>
+                         </ul>
+                         </Menu>
+
+                    
+
+                        
+                         
+                     
+                     
+                      
+                       </nav>
+
+                          </header>
+       <Outlet />
+
+       <Footer/>
+
     </>
-  )
+    
+  );
 };
-
-export default NavBar;
