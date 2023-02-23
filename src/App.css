@@ -387,7 +387,7 @@ margin-right: 11vw;
 margin-top: 0vh;
 }
 
-.download-container > a {
+.download-container a {
   
   background: hwb(220 0% 0%);
   color: aliceblue;
@@ -603,7 +603,7 @@ color: whitesmoke;
 
 }
 
-.btn-form:active{
+button :active{
   color: black;
   background-color: green;
 }
@@ -1092,7 +1092,7 @@ footer p{
   font-size: large;
   margin-left: 10px;
 }
-.download-container > :last-child{
+.download-container a{
   font-size: 10px;
   margin: 0%;
   padding: 10px 15px ;

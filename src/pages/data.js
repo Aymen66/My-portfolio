@@ -32,7 +32,7 @@ const data = [
         name:"Unit Conversion App",
         description :"This app lets you convert any number to any unit you want. All you have to do is to write a number and the app will convert that number to several units incluing kilogram, pound, gallons, liters, meter, feet.",
         apk: "Vocabularychecker.apk",
-        checkItOut: "https://aymen66.github.io/sanaa-project/",
+        checkItOut: "https://aymen66.github.io/Vocabulary-Checker/",
     },
     {
         id: 5,
@@ -40,7 +40,7 @@ const data = [
         name:"Visit Sana'a",
         description :"This is a Web page I created which conatians a brief on the culture in Yemen.",
         apk: "Vocabularychecker.apk",
-        checkItOut: "https://aymen66.github.io/Vocabulary-Checker/",
+        checkItOut: "https://aymen66.github.io/sanaaproject-with-boostrap-phone-version2-/",
     
     },
 ]
