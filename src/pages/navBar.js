@@ -108,6 +108,7 @@ import Footer from '../pages/footer';
 
 const NavBar = () => {
   const [isShown, setIsShown]= React.useState(true)
+
   const [hamburger, setHamburger]= React.useState(false)
 
 
@@ -119,8 +120,9 @@ const NavBar = () => {
           return false
       }
   })
-    
+  
  }
+
  function hamburgerFlip(){
   setHamburger(function(prevState){
     if(!prevState){
@@ -129,6 +131,7 @@ const NavBar = () => {
         return false
     }
 })
+
   
 }
 
@@ -136,7 +139,7 @@ const NavBar = () => {
  
   return (
     <>
-    <header>
+    <header >
                       <nav  >
                         
                       <ul className='uLeft'>
@@ -152,8 +155,8 @@ const NavBar = () => {
                                          </ul>
              {  isShown &&  <label  >
                      <input type="checkbox"/>
-                     <div onClick={hamburgerFlip} class="menu"> <div class="hamburger"></div> </div>
-                    {hamburger && <ul  className='ulNav'>
+                     <div  onClick={hamburgerFlip} class="menu"> <div class="hamburger"></div> </div>
+                   {hamburger&& <ul  className='ulNav'>
                         <Link onClick={flip} className="nav-list" to='/'>ABOUT ME</Link>
                              <Link onClick={flip} className="nav-list"  to='/Resume'>RESUME</Link>
                              <Link onClick={flip} className="nav-list" to='/Projects'>PROJECTS</Link>
@@ -164,7 +167,7 @@ const NavBar = () => {
         
                          </ul>}
                      </label>
-                        }
+}
                           {   !isShown &&  <label >
                      <input type="checkbox"/>
                      <div onClick={hamburgerFlip} class="menu"> <div class="hamburger"></div> </div>
@@ -178,6 +181,7 @@ const NavBar = () => {
         
         
                          </ul>}
+                      
                      </label>
                         }
                      

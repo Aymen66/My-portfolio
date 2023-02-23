@@ -8,6 +8,9 @@ const element = data.map( item => {
         img = {item.img}
         name = {item.name}
         description = {item.description}
+        apk = {item.apk}
+        checkItOut = {item.checkItOut}
+
 
 
 
