@@ -203,7 +203,7 @@ export default function Resume (){
 
                             </div>
                             <div className='languageLevel'>
-                            <h3 className='skillAndlanguage'>Web programming; HTML, CSS, JavaScript</h3><img alt='almost level' className='img' src={AlmostFull}/>
+                            <h3 className='skillAndlanguage'>Web programming : HTML, CSS, JavaScript</h3><img alt='almost level' className='img' src={AlmostFull}/>
 
                             </div>
                             <div className='languageLevel'>

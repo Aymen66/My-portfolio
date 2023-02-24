@@ -42,9 +42,9 @@ body {
   padding: .25rem;
 } */
 
-.nav li.active {
+/* .nav li.active {
   background-color: #555;
-}
+} */
 /* header{
   position: fixed;
   background-color: hsl(0, 0%, 97%);
@@ -536,7 +536,7 @@ padding: 20px 0px;
   }
 
   
-button{
+.btn-form{
   padding: 7px 30px;
   border-radius: 50px;
   font-weight: 900;
@@ -550,7 +550,7 @@ button{
 
 }
 
-button:hover{
+.btn-form:hover{
   color: black;
   text-shadow: 1px 1px 1px black;
 
