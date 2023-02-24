@@ -10,30 +10,13 @@ const element = data.map( item => {
         description = {item.description}
         apk = {item.apk}
         checkItOut = {item.checkItOut}
-
-
-
-
-
         />
     )
 
 })
 
 export default function Projects (){
-    const slideImages = [
-        '../images/logo512.png',
-        'images/slide_3.jpg',
-        'images/slide_4.jpg'
-      ];
-      
-      const properties = {
-        duration: 5000,
-        transitionDuration: 500,
-        infinite: true,
-        indicators: true,
-        arrows: true
-      }
+  
     return (
         <div className='project-container'>
             <div className='Resume-container'>
