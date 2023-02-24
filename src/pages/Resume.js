@@ -20,7 +20,7 @@ export default function Resume (){
                     <div class=" item item1">
                         
                             <h3 className='dates'>2016 - Nov.2017</h3>
-                            <h5 className='ocupation'>  Sana'a, Yemen</h5>
+                            <h5 className='location'>  Sana'a, Yemen</h5>
 
                         
                     </div>
@@ -37,7 +37,7 @@ export default function Resume (){
                     </div>
                     <div class=" item item3">
                     <h3 className='dates'>Nov. 2015 – Feb. 2016</h3>
-                    <h5 className='ocupation'>  Sana'a, Yemen</h5>
+                    <h5 className='location'>  Sana'a, Yemen</h5>
 
                         
                     </div>
@@ -52,7 +52,7 @@ export default function Resume (){
                         
                     <h3 className='dates'>
                         Dec. 2018 – June 2019</h3>
-                        <h5 className='ocupation'> Istanbul, Turkey </h5>
+                        <h5 className='location'> Istanbul, Turkey </h5>
 
 
                     </div>
@@ -67,7 +67,7 @@ export default function Resume (){
 
 
                     </h3>
-                    <h5 className='ocupation'>  Sana'a, Yemen </h5>
+                    <h5 className='location'>  Sana'a, Yemen </h5>
 
 
                         </div>
@@ -81,7 +81,7 @@ export default function Resume (){
                     Dec. 2016 –Dec. 2017
 
                     </h3>
-                    <h5 className='ocupation'>  Sana'a, Yemen </h5>
+                    <h5 className='location'>  Sana'a, Yemen </h5>
 
                         </div>
                     <div class="item item10">
@@ -94,7 +94,7 @@ export default function Resume (){
                     September, 2022 – Present
 
                     </h3>
-                    <h5 className='ocupation'>  Glasgow, Scotland </h5>
+                    <h5 className='location'>  Glasgow, Scotland </h5>
 
 
 
@@ -111,7 +111,7 @@ export default function Resume (){
                     April. 2022 – Present
 
                     </h3>
-                    <h5 className='ocupation'>  Falkirk, Scotland </h5>
+                    <h5 className='location'>  Falkirk, Scotland </h5>
 
 
 
@@ -127,7 +127,7 @@ export default function Resume (){
                     Sep. 2021 – Oct. 2021
                         
                         </h3>
-                    <h5 className='ocupation'>  Belfast, Northern Ireland </h5>
+                    <h5 className='location'>  Belfast, Northern Ireland </h5>
 
                     </div>
                     <div class="item item14">	
@@ -141,7 +141,7 @@ export default function Resume (){
                     Jan. 2022 – July 2021
                         
                         </h3>
-                    <h5 className='ocupation'>  Falkirk, Scotland </h5>
+                    <h5 className='location'>  Falkirk, Scotland </h5>
 
                         </div>
                     <div class="item item16">

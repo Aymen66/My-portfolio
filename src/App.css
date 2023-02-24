@@ -954,6 +954,7 @@ article{
   position: relative;
   font-size: 12px;
   line-height: 4vh;
+  color: rgb(230, 224, 224);
 }
 
 img{
@@ -1053,22 +1054,38 @@ footer p{
 }
    
 .Resume{
-  top: -170px;
+  top: -140px;
   position: relative;
   
 
 }
 .dates{
   padding: 0px 20px;
+  color: black;
+  text-shadow: 1px 0px 1px rgb(122, 119, 119);
+  
 }
 .ocupation{
   padding: 0px 20px;
+  color: rgb(230, 224, 224);
+
+}
+.location{
+  padding: 0px 20px;
+  color: rgb(17, 1, 1);
+  text-shadow: 1px 0px 1px rgb(122, 119, 119);
+
+
 }
 .duties{
   padding: 5px 20px;
+  color: rgb(230, 224, 224);
+
 }
 .company-name{
   padding: 5px 20px;
+  color: rgb(230, 224, 224);
+
 }
 .grid-container{
   margin: 30px 10px  ;
@@ -1080,6 +1097,88 @@ footer p{
 .item{
   grid-column-start: 1;
   grid-column-end: 6;
+}
+
+div.item1{
+  background-color: rgb(230, 224, 224);
+  
+}
+
+div.item3{
+  background-color: rgb(230, 224, 224);
+
+}
+
+div.item5{
+  background-color: rgb(230, 224, 224);
+
+}
+
+div.item7{
+  background-color: rgb(230, 224, 224);
+
+}
+.item8{
+  
+}
+div.item9{
+  
+  background-color: rgb(230, 224, 224);
+
+}
+.item10{
+  
+}
+div.item11{
+  background-color: rgb(230, 224, 224);
+
+}
+.item12{
+  
+}
+div.item13{
+  background-color: rgb(230, 224, 224);
+
+}
+.item14{
+ 
+}
+div.item15{
+  background-color: rgb(230, 224, 224);
+
+}
+.item16{
+ 
+}
+div.item17{
+  background-color: rgb(230, 224, 224);
+
+}
+.item18{
+  
+}
+div.item19{
+  background-color: rgb(230, 224, 224);
+
+}
+.item20{
+  
+}
+.item21{
+  
+}
+.item22{
+  
+}
+.item23{
+ 
+}
+div.item24{
+  background-color: rgb(230, 224, 224);
+
+}
+.item25{
+ 
 }
 .Resume-title{
   font-size: x-large;
