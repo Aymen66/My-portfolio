@@ -723,9 +723,7 @@ padding: 10px;
 
 
 }
-SimpleImageSlider{
-  width: 100%;
-}
+
 .smaller-div{
   padding: 10px;
     margin: 5px 30px;
@@ -740,12 +738,8 @@ SimpleImageSlider{
   flex-direction: column;
     margin-bottom: 20px;
   }
-  .smaller-div h1{
-    padding: 10px;
-      margin:5px 0px;
-      
-    }
-    .smaller-div p{
+
+    .smaller-div .projects-description{
       padding: 10px;
         margin:5px 0px;
         line-height: 5vh;
@@ -1194,6 +1188,7 @@ div.item24{
 
 
   }
+ 
   .project-container{
     top: -140px;
   position: relative;
@@ -1246,5 +1241,13 @@ div.item24{
   font-size: medium;
   margin-top: 0px;
 }
-      }
+.smaller-div .projects-description{
+  font-size: 13px;
+  line-height: 4vh;
+  
+}
+.smaller-div > .projects-name{
+  font-size: 20px;
+}
+}
      
