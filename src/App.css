@@ -264,11 +264,12 @@ img {
   margin: 10px 10px  10px 0px ;
   padding: 6px 30px ;
   border-radius: 50px;
-  border: 1px solid black;
+  border: 1px solid white;
   font-weight: 500;
   text-decoration-line: none;
   font-size: 15px;
   cursor: pointer;
+  box-shadow: 1px 1px 1px black;
 
 }
 
@@ -344,6 +345,7 @@ margin-top: 0vh;
   font-weight: 500;
   text-decoration-line: none;
   font-size: 15px;
+  box-shadow: 1px 1px 1px white;
 
 }
 .grid-container{
@@ -539,7 +541,7 @@ button{
   border-radius: 50px;
   font-weight: 900;
   background-color: #373a47;
-  box-shadow: 0px 1px 1px black;
+  box-shadow: 1px 1px 1px white;
   text-shadow: 2px 1px 2px black;
   color: whitesmoke;
 
@@ -558,18 +560,24 @@ form {
   margin-top: 2%;
   text-align: center;
  
+  background-color: #373a47;
+margin: 10px;
+padding: 10px;
+box-shadow: 2px 1px 2px white;
 
+}
+.App{
+  background-color: #696c7a;
 }
 
 .contact-message{
   padding: 5px 10px;
   margin: 10px  auto;
-  background-color: #373a47;
+  background-color: rgb(230, 224, 224);;
   border-radius: 10px;
   height: 30px; 
   width: 15%; 
   font-size: 18px;
-box-shadow: -1px -1px 0px rgb(248, 248, 249), -1px -1px 20px rgb(172, 170, 170);
   text-align: center;
   display: block;
   border: 1px solid black;
@@ -578,13 +586,11 @@ text-shadow: 2px 1px 2px black;
 
 }
 .contact-message::placeholder{
-  color: whitesmoke;
-  text-shadow: 2px 1px 2px black;
+  color: black;
 font-size: small;
 }
 textarea::placeholder{
-  color: whitesmoke;
-  text-shadow: 2px 1px 2px black;
+  color: black;
   font-size: small;
   padding: 30px;
 }
@@ -593,13 +599,12 @@ height: 15vh;
 width: 50%;
 padding: 5px 10px;
 margin: 10px  auto;
-background-color: #373a47;
+background-color: rgb(230, 224, 224);;
 border-radius: 10px;
 font-size: 18px;
 
 
 color: #212121;
-box-shadow: -1px -1px 0px rgb(248, 248, 249), -1px -1px 20px rgb(172, 170, 170);
 text-align: center;
 display: block;
 text-shadow: 2px 1px 2px black;
@@ -750,14 +755,14 @@ padding: 10px;
   align-items: center;
 }
 .projects-links a{
-  background-color: #373a47;
   margin: 0px 0px;
   padding: 5px 10px;
   border-radius: 5%;
   background-color: rgb(7, 7, 7);
 color: whitesmoke;
 text-decoration: none;
-  
+box-shadow: 1px 1px 1px white;
+
 }
 .projects-links a:hover{
   color:rgb(0, 0, 0);
@@ -915,8 +920,9 @@ label a {
   display:block;
   
   padding-top: 10px;
-  margin-right: 0px;
+  margin-right: 20px;
   /* i changed this  */
+  margin-top: 60px;
   
 }
 
@@ -987,6 +993,9 @@ img{
 }
 .links a {
   padding: 6px 20px ;
+  border: none;
+  box-shadow: 1px 1px 1px white;
+
 
 }
 
@@ -1056,7 +1065,6 @@ footer p{
 .Resume{
   top: -140px;
   position: relative;
-  
 
 }
 .dates{
@@ -1092,7 +1100,6 @@ footer p{
   padding:0px 0px;
   width: 95%;
 
-
 }
 .item{
   grid-column-start: 1;
@@ -1118,68 +1125,43 @@ div.item7{
   background-color: rgb(230, 224, 224);
 
 }
-.item8{
-  
-}
+
 div.item9{
   
   background-color: rgb(230, 224, 224);
 
 }
-.item10{
-  
-}
+
 div.item11{
   background-color: rgb(230, 224, 224);
 
 }
-.item12{
-  
-}
+
 div.item13{
   background-color: rgb(230, 224, 224);
 
 }
-.item14{
- 
-}
+
 div.item15{
   background-color: rgb(230, 224, 224);
 
 }
-.item16{
- 
-}
+
 div.item17{
   background-color: rgb(230, 224, 224);
 
 }
-.item18{
-  
-}
+
 div.item19{
   background-color: rgb(230, 224, 224);
 
 }
-.item20{
-  
-}
-.item21{
-  
-}
-.item22{
-  
-}
-.item23{
- 
-}
+
 div.item24{
   background-color: rgb(230, 224, 224);
 
 }
-.item25{
- 
-}
+
 .Resume-title{
   font-size: x-large;
 }
@@ -1192,7 +1174,6 @@ div.item24{
   margin: 0%;
   padding: 10px 15px ;
 
-  background-color: hwb(220 0% 0%);
 
 }
 
@@ -1211,12 +1192,12 @@ div.item24{
 
   }
   .project-container{
-    top: -170px;
+    top: -140px;
   position: relative;
   padding-top: 15px;
   }
   .contact-container{
-    top: -170px;
+    top: -130px;
   position: relative;
   }
   .contact-message{

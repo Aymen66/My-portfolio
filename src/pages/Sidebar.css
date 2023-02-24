@@ -27,8 +27,8 @@
   height: 24px;
   width: 24px;
   direction: ltr;
-  margin-right: 90% ;
-
+  margin-right: 95% ;
+margin-top: 30px;
 }
 
 /* Color/shape of close button cross */
@@ -95,12 +95,15 @@ direction: rtl;
   .bm-menu {
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
-    width: 90vw;
+    width: 100vw;
   }
   .bm-menu-wrap {
     position: fixed;
-    
+    top: -5px;
     left:17%;
   
+  }
+  .bm-cross {
+    background:whitesmoke;
   }
 }
