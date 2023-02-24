@@ -723,6 +723,9 @@ padding: 10px;
 
 
 }
+SimpleImageSlider{
+  width: 100%;
+}
 .smaller-div{
   padding: 10px;
     margin: 5px 30px;
@@ -730,12 +733,12 @@ padding: 10px;
 
   }
   .project-container{
-  padding: 10% 10px 10px 10px;
+  padding: 2% 10px 10px 10px;
   background-color: #696c7a;
   align-items: center;
   display: flex; 
   flex-direction: column;
-    
+    margin-bottom: 20px;
   }
   .smaller-div h1{
     padding: 10px;
