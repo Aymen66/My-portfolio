@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from "../pages/Card"
 import  data from "../pages/data"
-import SimpleImageSlider from "react-simple-image-slider";
+
 const element = data.map( item => {
     return (
         <Card
@@ -27,16 +27,7 @@ export default function Projects (){
              <p className='Resume-box'></p>
             <h1 className='Resume-title'>Pojects</h1>
                 </div> 
-            
-            < SimpleImageSlider
-        style={{  }}
-
-        width={346}
-        height={604}
-        images={element}
-        showBullets={true}
-        showNavs={true}
-      />
+            {element}
         </div>
         
     )
