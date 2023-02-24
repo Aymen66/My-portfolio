@@ -206,6 +206,17 @@ import { Outlet, Link } from "react-router-dom";
 import Footer from '../pages/footer';
 
 export default props => {
+  const [isShown, setIsShown]= React.useState(true)
+  function flip(){
+    setIsShown(function(prevState){
+      if(!prevState){
+          return true
+      }else{
+          return false
+      }
+  })
+  
+ }
   return (
     <>
     <header >
@@ -214,35 +225,59 @@ export default props => {
                       <ul className='uLeft'>
                         
                           <div className="ulLeft-container">
-                         <div className='title-box'></div>
+                            <div>
+                            <div className='title-box'></div>
                          <li>
                       <a   className='employeeName'> Aymen Alkhawlnai</a>
 
                           </li>
+                            </div>
+                     
+                          <div>
                           <li className='job-title'><span className="slash">/</span> FRONT-END DEVELOPER</li>
+
+                          </div>
 
                           </div>
                                          </ul>
              
                     
                      <div   class="menu"> <div class="hamburger"></div> </div>
-    <Menu>
+    {isShown && <Menu>
 
                     <ul  className='ulNav'>
-      <Link className="menu-item" to="/">
+      <Link  onClick={flip} className="menu-item" to="/">
         ABOUT ME
       </Link>
-      <Link className="menu-item" to="/Resume">
+      <Link onClick={flip} className="menu-item" to="/Resume">
         RESUME
       </Link>
-      <Link className="menu-item" to="/Projects">
+      <Link onClick={flip} className="menu-item" to="/Projects">
         PROJECTS
       </Link>
-      <Link className="menu-item" to="/Contact">
+      <Link onClick={flip} className="menu-item" to="/Contact">
         CONTACT
       </Link>
                          </ul>
-                         </Menu>
+                         </Menu>}
+                         {!isShown && <Menu>
+
+<ul  className='ulNav'>
+<Link  onClick={flip} className="menu-item" to="/">
+ABOUT ME
+</Link>
+<Link onClick={flip} className="menu-item" to="/Resume">
+RESUME
+</Link>
+<Link onClick={flip} className="menu-item" to="/Projects">
+PROJECTS
+</Link>
+<Link onClick={flip} className="menu-item" to="/Contact">
+CONTACT
+</Link>
+     </ul>
+     </Menu>}
+                         
 
                     
 
