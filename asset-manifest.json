@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-portfolio/static/css/main.e55d8caa.css",
-    "main.js": "/My-portfolio/static/js/main.1f9e67d8.js",
+    "main.css": "/My-portfolio/static/css/main.38edf1f7.css",
+    "main.js": "/My-portfolio/static/js/main.4a38dd3f.js",
     "static/media/uk-resume.pdf": "/My-portfolio/static/media/uk-resume.917979479c27b75475ec.pdf",
     "static/media/cell-phone-icon.jpg": "/My-portfolio/static/media/cell-phone-icon.1eb586e52184d9c8bdc7.jpg",
     "static/media/profile-pic.jpeg": "/My-portfolio/static/media/profile-pic.775b246b1f76808fbafb.jpeg",
@@ -11,11 +11,11 @@
     "static/media/link-icon.png": "/My-portfolio/static/media/link-icon.d29c5c0c00c0d501fd0c.png",
     "static/media/gmail.png": "/My-portfolio/static/media/gmail.4a54252a474879aa951d.png",
     "index.html": "/My-portfolio/index.html",
-    "main.e55d8caa.css.map": "/My-portfolio/static/css/main.e55d8caa.css.map",
-    "main.1f9e67d8.js.map": "/My-portfolio/static/js/main.1f9e67d8.js.map"
+    "main.38edf1f7.css.map": "/My-portfolio/static/css/main.38edf1f7.css.map",
+    "main.4a38dd3f.js.map": "/My-portfolio/static/js/main.4a38dd3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.e55d8caa.css",
-    "static/js/main.1f9e67d8.js"
+    "static/css/main.38edf1f7.css",
+    "static/js/main.4a38dd3f.js"
   ]
 }
