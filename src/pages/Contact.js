@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 
+import ImageGallaryComponent from './gallery.component';
 
 
 
@@ -87,5 +88,6 @@ export default function Contact (){
     </div>
     
                     </div>
+                    
   )
 }

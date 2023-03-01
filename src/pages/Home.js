@@ -63,6 +63,7 @@ import Instigram from "../contactPhotos/instigram.jpg"
 
 import Facebook from "../contactPhotos/facebook.png"
 import Linkdin from "../contactPhotos/link-icon.png"
+import { Link } from "react-router-dom";
 
 export default function Home (){
     return (
@@ -98,9 +99,9 @@ export default function Home (){
              <h1>Hello</h1>
              <h2>Here's who I am & what I do</h2>
              <div className='links'>
-             <a className='anchors' to='/Resume'>RESUME</a>
+             <Link className='anchors' to='/Resume'>RESUME</Link>
               
-             <a className='anchors' to='/Projects'>PROJECTS</a>
+             <Link className='anchors' to='/Projects'>PROJECTS</Link>
     
              </div>
              <p>
