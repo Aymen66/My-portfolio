@@ -573,6 +573,14 @@ box-shadow: 2px 1px 2px white;
   align-items: center;
 
 }
+
+.dot{
+  position: relative;
+  bottom: 20px;
+
+  padding: 9px;
+}
+
 /* .slide.selected{
   align-items: center;
 width: 50%;
@@ -605,9 +613,14 @@ width: 50%;
 
 }
 .control-arrow.control-next{
-  margin-right: 10px;
+  margin-right: 200px;
   
 
+}
+
+.carousel-status{
+  margin-right: 200px;
+  
 }
 .control-arrow.control-prev::before{
   margin-right: 200px;
@@ -619,7 +632,6 @@ display: flex;
 flex-direction: column;
   align-items: center;
   justify-content: center;
-
 
 }
 /* .slide.selected{
@@ -759,7 +771,7 @@ opacity:2;
 }
 
 .projects-img{
-width: 30%;
+max-width: 30%;
 padding: 10px;
   margin: 10px 20px;
   border-radius: 15px;
@@ -813,7 +825,7 @@ padding: 10px;
   align-items: center;
 }
 .projects-links a{
-  margin: 0px 0px;
+  margin: 0px 0px  10% 0px;
   padding: 5px 10px;
   border-radius: 5%;
   background-color: rgb(7, 7, 7);
@@ -1246,14 +1258,13 @@ div.item24{
 .projects{
   flex-direction: column;
   width: 100%;
-  margin-top: 10px;
+  margin: 10px 0px 10px 0px;
 
 
 }
 .smaller-div{
   padding: 10px;
     margin: 5px 0px;
-
 
   }
  
@@ -1279,7 +1290,7 @@ div.item24{
   
  }
  .projects-img{
-  width: 90%;
+  max-width: 60%;
  }
  .projects-links a{
   font-size: 10px;
@@ -1287,7 +1298,57 @@ div.item24{
   padding: 0px 7px;
 
  }
+ .control-arrow.control{
+  margin-left: 0px;
 
+}
+.control-arrow.control-prev{
+  margin-left: 10px;
+
+}
+.control-arrow.control-next{
+  margin-right: 10px
+
+}
+.control-arrow.control-next::before{
+  margin-right: 0px;
+  top: -25%;
+  position: relative;
+
+}
+.control-arrow.control-prev::before{
+  margin-right: 0px;
+  top: -25%;
+  position: relative;
+
+}
+
+
+.carousel-status{
+  margin-right: 0px;
+  
+}
+.control-arrow.control-prev::before{
+  margin-right: 0px;
+  background-color: black;
+
+}
+.carousel-root {
+display: flex;
+flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.slide.selected.previous{
+  width: 0px;
+}
+.dot{
+  position: relative;
+  bottom: 0px;
+
+  padding: 5px;
+}
  .ulLeft-container{
   left: 0%;
   display: flex;
