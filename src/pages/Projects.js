@@ -1,7 +1,6 @@
 
 import React from 'react';
 import Card from "../pages/Card"
-import pic from "../profile-pic.jpeg"
 
 
 
@@ -14,7 +13,7 @@ import { Carousel } from 'react-responsive-carousel';
 class ImageGallaryComponent extends React.Component {
     render() {
         return (
-            <div>
+            <div className='bigest-project'>
                         <div className='Resume-container'>
                         <p className='Resume-box'></p>
                        <h1 className='Resume-title'>Pojects</h1>
@@ -22,7 +21,7 @@ class ImageGallaryComponent extends React.Component {
                             <Carousel className='name'  thumbWidth={10} interval="5000" axis="horizontal"  transitionTime="2000">
                    
                    <Card
-                    img = {pic}
+                    img = "vocabulary checker.png"
                     name = "Vocabulary Checker"
                     description = "This is an app I created that lets you save the words with their meanings that you learn daily. You can also practice these words in Practice Section.By pressing the 'Get meaning' button, a random word from your vocabulary list will apear and you can guess the spelling of the word by writing in the box"
                     apk = "Vocabularychecker.apk"
@@ -32,12 +31,32 @@ class ImageGallaryComponent extends React.Component {
                    
                    <Card
                     img = "dailylog.png"
-                    name = "Vocabulary Checker"
-                    description = "This is an app I created that lets you save the words with their meanings that you learn daily. You can also practice these words in Practice Section.By pressing the 'Get meaning' button, a random word from your vocabulary list will apear and you can guess the spelling of the word by writing in the box"
+                    name = "Daily Log"
+                    description = "This is an app I craeted that lets you write and save the activities that you in which you've participated. You will add the time , date and the location of the activity"
                     apk = "Vocabularychecker.apk"
-                    checkItOut = "https://aymen66.github.io/Vocabulary-Checker/"
+                    checkItOut = "https://aymen66.github.io/To-do-list/"
                     />
-                   
+                   <Card
+                    img = "passwordGenerator.png"
+                    name = "Password Generator"
+                    description = "This app of mine lets you create two random passwords everytime the button is clicked. The passowrd generated is imposible to be hacked or even rememberd by you 😅 as each password contains 15 characters.Once the password is generated , all you should do is to copy the password by pressing the passowrd box"
+                    apk = "Vocabularychecker.apk"
+                    checkItOut = "https://aymen66.github.io/Generate-Passwords/"
+                    />
+                    <Card
+                    img = "conversion.png"
+                    name = "Unit Conversion App"
+                    description = "This app lets you convert any number to any unit you want. All you have to do is to write a number and the app will convert that number to several units incluing kilogram, pound, gallons, liters, meter, feet."
+                    apk = "Vocabularychecker.apk"
+                    checkItOut = "https://aymen66.github.io/Unit-Conversion/"
+                    />
+                      <Card
+                    img = "visitSanaa.png"
+                    name = "Visit Sana'a"
+                    description = "This is a Web page I created which conatians a brief on the culture in Yemen."
+                    apk = "Vocabularychecker.apk"
+                    checkItOut = "https://aymen66.github.io/sanaaproject-with-boostrap-phone-version2-/"
+                    />
                    
                    
                    
