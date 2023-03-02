@@ -205,7 +205,7 @@ import './Sidebar.css';
 import { Outlet, Link } from "react-router-dom";
 import Footer from '../pages/footer';
 
-export default props => {
+export default function NavBar (){
   const [isShown, setIsShown]= React.useState(true)
   function flip(){
     setIsShown(function(prevState){
@@ -296,4 +296,4 @@ CONTACT
     </>
     
   );
-};
+}
