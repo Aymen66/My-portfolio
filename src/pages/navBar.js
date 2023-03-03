@@ -228,7 +228,7 @@ export default function NavBar (){
                             <div>
                             <div className='title-box'></div>
                          <li>
-                      <Link  to='/Home' className='employeeName'> Aymen Alkhawlnai</Link>
+                      <Link  to='/' className='employeeName'> Aymen Alkhawlnai</Link>
 
                           </li>
                             </div>
