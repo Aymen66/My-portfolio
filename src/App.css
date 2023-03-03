@@ -165,7 +165,8 @@ body {
 .employeeName{
   font-weight: bold;
   font-size: 25px;
-
+text-decoration: none;
+color: inherit;
 }
 .uLeft .job-title{
   font-size: medium;
