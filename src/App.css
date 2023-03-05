@@ -87,7 +87,6 @@ body {
   background: #373a47;
   color: #fffffd;
   
-  
 
 }
 .ulLeft-container{
@@ -335,7 +334,7 @@ margin-right: 11vw;
 margin-top: 0vh;
 }
 
-.download-container a {
+.downloadCV {
   
   background: #373a47;
   color: aliceblue;
@@ -347,6 +346,13 @@ margin-top: 0vh;
   text-decoration-line: none;
   font-size: 15px;
   box-shadow: 1px 1px 1px white;
+
+}
+.downloadCV:hover{
+  background: white;
+  color: black;
+  text-shadow: none;
+  font-weight: 900;
 
 }
 .grid-container{
@@ -483,6 +489,11 @@ box-shadow: -1px -1px 0px rgb(248, 248, 249), -1px -1px 20px rgb(172, 170, 170);
 .ocupation{
   font-size: 13px;
   padding: 20px;
+
+}
+.location{
+  padding: 20px;
+
 
 }
 .duties{
@@ -664,7 +675,6 @@ flex-direction: column;
   text-align: center;
   display: block;
   border: 1px solid black;
-text-shadow: 2px 1px 2px black;
   color: whitesmoke;
 
 }
@@ -690,7 +700,6 @@ font-size: 18px;
 color: #212121;
 text-align: center;
 display: block;
-text-shadow: 2px 1px 2px black;
   color: whitesmoke;
 }
 .contact{
@@ -847,10 +856,12 @@ box-shadow: 1px 1px 1px white;
   color:rgb(0, 0, 0);
   background-color: rgb(255, 253, 253);
   
-
+text-shadow: none;
   
 }
-
+ul{
+  transition-duration: 6000ms;
+}
 
 #page-wrap {
   padding-bottom: 1px;
@@ -1395,6 +1406,7 @@ top: -170px;
 }
 .name{
   width: 95%;
+  
 }
 
 .uLeft .job-title{
